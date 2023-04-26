@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Buton.cpp" />
     <ClCompile Include="OOP_LB_5.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="WindowWithButon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buton.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="WindowWithButon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
