@@ -112,5 +112,6 @@ int main()
 
 
 	std::cout << "ZIGA" << "\n";
+	std::cout << "lox";
 }
 
