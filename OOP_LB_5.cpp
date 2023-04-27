@@ -108,6 +108,9 @@ int main()
 		}
 	} while (!inputIsValid2);
 
-	std::cout << "vlad";
+	
+
+
+	std::cout << "ZIGA" << "\n";
 }
 
