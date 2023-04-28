@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OOP_LB_5.cpp" />
+    <ClCompile Include="ProcessedData.cpp" />
+    <ClCompile Include="Signal.cpp" />
+    <ClCompile Include="SignalProcessedData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessedData.h" />
+    <ClInclude Include="Signal.h" />
+    <ClInclude Include="SignalProcessedData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
