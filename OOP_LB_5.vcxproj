@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Deutsh.cpp" />
+    <ClCompile Include="NATO.cpp" />
     <ClCompile Include="OOP_LB_5.cpp" />
+    <ClCompile Include="UK.cpp" />
+    <ClCompile Include="Ukraine.cpp" />
+    <ClCompile Include="USA.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Deutsh.h" />
+    <ClInclude Include="NATO.h" />
+    <ClInclude Include="UK.h" />
+    <ClInclude Include="Ukraine.h" />
+    <ClInclude Include="USA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
