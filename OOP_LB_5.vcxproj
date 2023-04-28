@@ -129,12 +129,12 @@
   <ItemGroup>
     <ClCompile Include="OOP_LB_5.cpp" />
     <ClCompile Include="Quadrangle.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rectangle1.cpp" />
     <ClCompile Include="Square.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Quadrangle.h" />
-    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rectangle1.h" />
     <ClInclude Include="Square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

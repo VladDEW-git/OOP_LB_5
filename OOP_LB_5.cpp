@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include "Quadrangle.h"
 #include "Square.h"
-#include "Rectangle.h"
+#include "Rectangle1.h"
 
 int main()
 {
@@ -109,6 +109,8 @@ int main()
 	} while (!inputIsValid2);
 
 	
-
+	Rectangle1 l(y1, y2);
+	l.print();
+	l.AreaAndPerimeter();
 }
 
