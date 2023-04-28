@@ -15,6 +15,7 @@ int Circle::Perumetr()
 {
 	if (lenth <= 0)
 	{
+		std::cout << "The length of a circle cannot be 0 or negative\n";
 		return 0;
 	}
 
@@ -28,6 +29,7 @@ int Circle::Area()
 {
 	if (lenth <= 0)
 	{
+		std::cout << "The length of a circle cannot be 0 or negative\n";
 		return 0;
 	}
 

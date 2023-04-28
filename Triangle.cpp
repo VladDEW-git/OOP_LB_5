@@ -16,6 +16,7 @@ int Triangle::Perumetr()
 {
 	if (!(x + y > z && x + z > y && y + z > x && x > 0 && y > 0 && z > 0))
 	{
+		std::cout << "It is not possible to form a triangle with such parameters\n";
 		return 0;
 	}
 
@@ -28,6 +29,7 @@ int Triangle::Area()
 {
 	if (!(x + y > z && x + z > y && y + z > x && x > 0 && y > 0 && z > 0))
 	{
+		std::cout << "It is not possible to form a triangle with such parameters\n";
 		return 0;
 	}
 

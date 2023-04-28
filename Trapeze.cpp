@@ -16,6 +16,7 @@ int Trapeze::Perumetr()
 {
 	if (!(c < a + b + d) || !(d < a + b + c))
 	{
+		std::cout << "It is not possible to form a trapezoid with such parameters\n";
 		return 0;
 	}
 
@@ -26,6 +27,12 @@ int Trapeze::Perumetr()
 
 int Trapeze::Area()
 {
+	if (!(c < a + b + d) || !(d < a + b + c))
+	{
+		std::cout << "It is not possible to form a trapezoid with such parameters\n";
+		return 0;
+	}
+
 	int h = sqrt((c * 2) - pow((b - a), 2) / 4);
 	int result = ((a + b) / 2) * h;
 
