@@ -26,7 +26,7 @@ void Signal::print() const
 
 std::ostream& operator<<(std::ostream& os, const Signal& s)
 {
-	s.print();
+	os << "Амплітуда: " << s.amplitude << ", Частота: " << s.frequency;
 	return os;
 }
 
