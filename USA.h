@@ -18,6 +18,8 @@ public:
 	USA();
 	USA(std::string _date, std::string _destination, int _abrams, int _stinger, int _himars, int _price);
 
+	~USA();
+
 
 };
 

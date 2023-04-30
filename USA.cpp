@@ -9,3 +9,7 @@ USA::USA(std::string _date, std::string _destination, int _abrams, int _stinger,
 	: date(_date), destination(_destination), abrams(_abrams), stinger(_stinger), himars(_himars), price(_price)
 {
 }
+
+USA::~USA()
+{
+}
