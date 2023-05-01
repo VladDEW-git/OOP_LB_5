@@ -5,7 +5,7 @@
 
 class USA : public NATO
 {
-private:
+protected:
 
 	std::string date;
 	std::string destination;
@@ -20,6 +20,9 @@ public:
 
 	~USA();
 
+	void Logistics() const;
+	void Price() const;
 
+	friend std::ostream& operator<< (std::ostream& os, const USA& usa);
 };
 

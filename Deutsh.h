@@ -5,7 +5,7 @@
 
 class Deutsh : private NATO
 {
-private:
+protected:
 
 	std::string date;
 	std::string destination;
@@ -18,5 +18,10 @@ public:
 	Deutsh(std::string _date, std::string _destination, int _leopard, int _pzH2000, int _price);
 
 	~Deutsh();
+
+	void Logistics() const;
+	void Price() const;
+
+	friend std::ostream& operator<< (std::ostream& os, const Deutsh& deu);
 };
 

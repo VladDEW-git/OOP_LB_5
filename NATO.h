@@ -4,8 +4,7 @@ class NATO
 {
 public:
 
-	virtual void Logistics() = 0;
-	virtual void Price() = 0;
-	virtual void WeaponList() = 0;
+	virtual void Logistics() const = 0;
+	virtual void Price() const = 0;
 };
 

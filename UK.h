@@ -5,7 +5,7 @@
 
 class UK
 {
-private:
+protected:
 
 	std::string date;
 	std::string destination;
@@ -19,5 +19,10 @@ public:
 	UK(std::string _date, std::string _destination, int _nlaw, int _chelenger, int _mastiff, int _price);
 
 	~UK();
+
+	void Logistics() const;
+	void Price() const;
+
+	friend std::ostream& operator<< (std::ostream& os, const UK& uk);
 };
 
